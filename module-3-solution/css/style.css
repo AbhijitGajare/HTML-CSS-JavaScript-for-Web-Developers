@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  h1 { 
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bolder;
+    padding-top:25px;
+   
+  }
+
+  h2{
+    font-family: Georgia;
+  }
+ 
+  .navbar-nav{
+    font-size: 125%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: Georgia;
+  }
+
+  .row{
+    padding-left:35px;
+  }
+  
+  .box{
+    width: 100%;
+    
+  }
+
+  .name{
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    margin-right:7.5%;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+    background-color:#1E90FF;
+    float:right;
+   
+  }
+  
+  .description{
+    border: 2px solid black;
+    width: 90%;
+    margin: 2.5%;
+    font-size: 18px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color:#ffb266;
+  }
+  
+  @media screen and (min-width: 991px)
+   {
+    .navbar-nav { visibility: hidden;}
+   }
